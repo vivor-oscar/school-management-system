@@ -1,8 +1,11 @@
 # Ignore environment files
 .env
 .env.example
-# Ignore dependencies
 
+# Ignore Backblaze B2 credentials (but allow example and helper)
+/api/b2_config.php
+
+# Ignore dependencies
 /vendor/
 /node_modules/
 /.idea/
